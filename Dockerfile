@@ -10,4 +10,4 @@ FROM scratch
 
 COPY --from=builder /app/hello-world-go /app/hello-world-go
 
-ENTRYPOINT [ "hello-world-go" ]
+ENTRYPOINT [ "/app/hello-world-go" ]
