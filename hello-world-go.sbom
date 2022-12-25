@@ -1,0 +1,51 @@
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "rajatguptag/hello-world-go-1.0.0-scratch",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-12-24T17:44:04.351215691Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.60.3"
+  ],
+  "licenseListVersion": "3.18"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/image/rajatguptag/hello-world-go-1.0.0-scratch-ea3501be-64a3-4bf9-bc46-9dfa69f633db",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-6c70ff6193c4679",
+   "name": "github.com/rajatgupta24/hello-world-go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:rajatgupta24:hello-world-go:\\(devel\\):*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:rajatgupta24:hello_world_go:\\(devel\\):*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/rajatgupta24/hello-world-go@(devel)",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /app/hello-world-go",
+   "versionInfo": "(devel)"
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-36287444897ac6cdf94cd789a39b91b91265ba88488a9d94beac3d6821201e3c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6c70ff6193c4679"
+  }
+ ]
+}
